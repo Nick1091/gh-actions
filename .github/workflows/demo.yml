@@ -7,3 +7,8 @@ jobs:
        - name: print to console
          shell: pwsh
          run: echo Hello gh Actions!
+       - name: print few lines
+         shell: pwsh
+         run: | 
+           echo First line!
+           echo Second line!
